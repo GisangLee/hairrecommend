@@ -7,7 +7,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-	<link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -172,27 +172,29 @@
 				switch (prediction[0].className) {
 					case "egg":
 						resultTitle = "달걀같은 내 얼굴 계란형"
-						resultExplain = "당신은 축복받은 얼굴을 타고났군요! 본인이 생각하기에 적당한 스타일로 시도해보세요! 뭘 해도 실패할 확률이 낮거든요~<br>&ast;피해야할 스타일: 굳이 따지면 얼굴형을 가리는 앞머리?"
+						resultExplain = "당신은 축복받은 얼굴을 타고났군요! 본인이 생각하기에 적당한 스타일로 시도해보세요!<br>뭘 해도 실패할 확률이 낮거든요~<br>&ast;피해야할 스타일: 굳이 따지면 얼굴형을 가리는 앞머리?"
+						resultAvoid = "&ast;피해야할 스타일: 굳이 따지면 얼굴형을 가리는 앞머리?"
 						resultCeleb = "계란형 연예인: 윤계상, 정해인"
 						break;
 					case "long":
 						resultTitle = "시원시원 길쭉한 긴 얼굴형"
-						resultExplain = "윗머리를 길지 않게 볼륨을 적게! 측면은 짧지 않은 리젠트 OR 포마드 아니면 가르마펌 어때요~?<br>&ast;피해야할 스타일: 투블럭은 NO! 옆머리가 짧으면 더 길어보일 수 있어요."
+						resultExplain = "윗머리를 길지 않게 볼륨을 적게! 측면은 짧지 않은 리젠트 또는<br>포마드 아니면 가르마펌 어때요~?<br>&ast;피해야할 스타일: 투블럭은 NO! 옆머리가 짧으면 더 길어보일 수 있어요."
 						resultCeleb = "긴 얼굴형 연예인: 소지섭, 이종석, 존박"
 						break;
 					case "circle":
 						resultTitle = "동글동글 보름달 둥근형"
-						resultExplain = "평범하면서 인상이 좋은 얼굴형을 보유하고 계시군요! 드러낸 이마, 앞/윗머리 볼륨, 옆가르마, 각진 스타일 등으로 다양한 연출을 해보세요!<br>&ast;피해야할 스타일: 긴 앞머리와 옆머리, 앞 가르마!"
+						resultExplain = "평범하면서 인상이 좋은 얼굴형을 보유하고 계시군요!<br>드러낸 이마, 앞/윗머리 볼륨, 옆가르마, 각진 스타일 등으로 다양한 연출을 해보세요!<br>&ast;피해야할 스타일: 긴 앞머리와 옆머리, 앞 가르마!"
+						resultAvoid = "&ast;피해야할 스타일: 긴 앞머리와 옆머리, 앞 가르마!"
 						resultCeleb = "둥근형 연예인: 송중기, 조정석"
 						break;
 					case "diamond":
 						resultTitle = "보석같은 내 얼굴 다이아몬드형"
-						resultExplain = "넓은 광대와 각진 턱이 포인트네요! 긴머리, 펌, 적당한 옆머리로 얼굴선을 부드럽게 만들어보는 건 어떨까요~?<br>&ast;피해야할 스타일: 직모, 광대를 부각시키는 아주 짧은 옆머리!!"
+						resultExplain = "넓은 광대와 각진 턱이 포인트네요! 긴머리, 펌<br>적당한 옆머리로 얼굴선을 부드럽게 만들어보는 건 어떨까요~?<br>&ast;피해야할 스타일: 직모, 광대를 부각시키는 아주 짧은 옆머리!!"
 						resultCeleb = "다이아몬드형 연예인: 김우빈"
 						break;
 					case "square":
 						resultTitle = "진정한 매력쟁이~! 각진형"
-						resultExplain = "남성적인 매력이 넘치는 분이시군요! 짧은 커트, 짧은 옆머리, 윗머리 볼륨, 올린 앞머리 등으로 최대한 부드러운 이미지를 표현하세요!<br>&ast;피해야할 스타일: 앞 가르마, 무거운 앞머리, 얼굴을 넓히는 옆머리"
+						resultExplain = "남성적인 매력이 넘치는 분이시군요! 짧은 커트, 짧은 옆머리, 윗머리 볼륨<br>올린 앞머리 등으로 최대한 부드러운 이미지를 표현하세요!<br>&ast;피해야할 스타일: 앞 가르마, 무거운 앞머리, 얼굴을 넓히는 옆머리"
 						resultCeleb = "각진형 연예인: 박서준, 여진구"
 						break;
 					default:
@@ -204,22 +206,22 @@
 				switch (prediction[0].className) {
 					case "egg":
 						resultTitle = "달걀같은 내 얼굴 계란형"
-						resultExplain = "갸름한 얼굴형을 잘 보여줄 수 있는 포니테일~!, 컬이 들어간 레이어드 S컬펌이 잘 어울릴 것같아요~!<br>&ast;피해야할 스타일: 이마를 가리는 무거운 느낌의 뱅"
+						resultExplain = "갸름한 얼굴형을 잘 보여줄 수 있는 포니테일~!<br>컬이 들어간 레이어드 S컬펌이 잘 어울릴 것같아요~!<br>&ast;피해야할 스타일: 이마를 가리는 무거운 느낌의 뱅"
 						resultCeleb = "계란형 연예인: 수지, 신세경, 전지현, 한예슬"
 						break;
 					case "long":
 						resultTitle = "시원시원 길쭉한 긴 얼굴형"
-						resultExplain = "옆머리에 볼륨감을 준 미디엄 롱기장의 루즈한 S컬, 5:5 정가르마, 눈썹에 닿는 시스루 뱅 어떠세요~?<br>&ast;피해야할 스타일: 턱선까지 오는 기장, 딱 붙는 머리"
+						resultExplain = "옆머리에 볼륨감을 준 미디엄 롱기장의 루즈한 S컬<br>5:5 정가르마, 눈썹에 닿는 시스루 뱅 어떠세요~?<br>&ast;피해야할 스타일: 턱선까지 오는 기장, 딱 붙는 머리"
 						resultCeleb = "긴 얼굴형 연예인: 려원, 로제, 백예린, 선미"
 						break;
 					case "circle":
 						resultTitle = "동글동글 보름달 둥근형"
-						resultExplain = "시각적으로 갸름하게 보여주는 레이어드 C컬펌, 뿌리볼륨펌, 턱선까지 오거나 미디엄보다 긴 기장을 추천~!<br>&ast;피해야할 스타일: 미디엄 기장의 머리"
+						resultExplain = "시각적으로 갸름하게 보여주는 레이어드 C컬펌,<br>뿌리볼륨펌, 턱선까지 오거나 미디엄보다 긴 기장을 추천~!<br>&ast;피해야할 스타일: 미디엄 기장의 머리"
 						resultCeleb = "둥근형 연예인: 고현정, 신민아, 유이, 프리스틴 나영"
 						break;
 					case "square":
 						resultTitle = "진정한 매력쟁이~! 네모형"
-						resultExplain = "단발 굵은 S컬펌, 미디엄 길이 레이어드 C컬펌, 애교머리에 자연스럽게 웨이브를 준 스타일이 좋아보여요~!<br>&ast;피해야할 스타일: 스트레이트 매직"
+						resultExplain = "단발 굵은 S컬펌, 미디엄 길이 레이어드 C컬펌,<br>애교머리에 자연스럽게 웨이브를 준 스타일이 좋아보여요~!<br>&ast;피해야할 스타일: 스트레이트 매직"
 						resultCeleb = "네모형 연예인: 김혜수, 블랙핑크 제니, 정유미, 한효주"
 						break;
 					case "diamond":
