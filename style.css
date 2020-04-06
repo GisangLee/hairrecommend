@@ -303,12 +303,6 @@ body {
 	font-size: 1.2rem;
 }
 
-.animal-avoid{
-	font-size: 1.2rem;
-	color:#123123;
-}
-
-
 .egg-animal-title {
 	color: #3ba363;
 }
@@ -333,7 +327,7 @@ body {
 .square-animal-title {
 	color: #548dd4;
 }
-.sqaure-animal-celeb {
+.square-animal-celeb {
 	color: #548dd4;
 	font-size: 1.0rem;
 }
