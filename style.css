@@ -124,9 +124,12 @@ body {
 
 .navbar-light .navbar-toggler {
     border-color: #192026;
+	background-color:#ffffff;
 }
 
-
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
 .section {
 	margin-top: 50px;
 }
