@@ -2,6 +2,15 @@ body {
 	font-family: 'Nanum Gothic', sans-serif;
 	background-color: #192026;
 }
+
+.main_fitome {
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;" 
+}
+
 .file-upload {
 	padding: 15% 5%;
 	margin: 0 auto;
@@ -115,7 +124,6 @@ body {
 	transition: all 0.2s ease;
 }
 
-
 .navbar-light .navbar-brand {
 	line-height: 1.68;
 	text-align: left;
@@ -123,12 +131,12 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-    border-color: #192026;
-	background-color:#ffffff;
+	border-color: #192026;
+	background-color: #ffffff;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
-  color: #ffffff;
+	color: #ffffff;
 }
 .section {
 	margin-top: 50px;
@@ -316,35 +324,35 @@ body {
 }
 .egg-animal-celeb {
 	color: #3ba363;
-	font-size: 1.0rem;
+	font-size: 1rem;
 }
 .long-animal-title {
 	color: #3ba363;
 }
 .long-animal-celeb {
 	color: #3ba363;
-	font-size: 1.0rem;
+	font-size: 1rem;
 }
 .circle-animal-title {
 	color: #ff6c0a;
 }
 .circle-animal-celeb {
 	color: #ff6c0a;
-	font-size: 1.0rem;
+	font-size: 1rem;
 }
 .square-animal-title {
 	color: #548dd4;
 }
 .square-animal-celeb {
 	color: #548dd4;
-	font-size: 1.0rem;
+	font-size: 1rem;
 }
 .diamond-animal-title {
 	color: #e56995;
 }
 .diamond-animal-celeb {
 	color: #e56995;
-	font-size: 1.0rem;
+	font-size: 1rem;
 }
 input#gender {
 	display: none;
