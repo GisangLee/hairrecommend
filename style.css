@@ -114,14 +114,19 @@ body {
 	border: 0;
 	transition: all 0.2s ease;
 }
+
+
 .navbar-light .navbar-brand {
 	line-height: 1.68;
 	text-align: left;
 	color: #ffffff;
 }
+
 .navbar-light .navbar-toggler {
-	border-color: #192026;
+    border-color: #192026;
 }
+
+
 .section {
 	margin-top: 50px;
 }
