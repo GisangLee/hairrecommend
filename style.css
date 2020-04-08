@@ -130,6 +130,11 @@ body {
 	color: #ffffff;
 }
 
+.navbar-light .navbar-brand:hover {
+    color: #bcdcff;
+}
+
+
 .navbar-light .navbar-toggler {
 	border-color: #192026;
 	background-color: #ffffff;

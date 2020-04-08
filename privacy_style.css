@@ -1,0 +1,34 @@
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+	background-color: #192026;
+}
+
+.navbar-light .navbar-brand {
+	line-height: 1.68;
+	text-align: left;
+	color: #ffffff;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #bcdcff;
+}
+
+.privacy_seciton{
+	margin-top:100px;
+	position:absolute;
+	width:600px;
+	top:50%;
+	left:35%;
+	position:relative;
+	text-align:left;
+	color:#ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+	html {
+		font-size: 10px;
+	}
+	.navbar-brand {
+		font-size: 1.5rem;
+	}
+}
